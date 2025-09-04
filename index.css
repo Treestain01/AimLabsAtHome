@@ -9,3 +9,37 @@ body {
   margin: 0;
   padding: 0;
 }
+
+#timer {
+  height: 30px;
+  width: 100%;
+  background-color: hsl(250, 100%, 17%);
+}
+
+#timerbar {
+  height: 100%;
+  background-color: hsl(250, 100%, 50%);
+  transition: width 1s linear;
+}
+
+#timerlabel {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+#stats-widget {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: rgba(255,255,255,0.9);
+  border-radius: 8px;
+  padding: 16px 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  z-index: 1000;
+  font-family: Arial, sans-serif;
+}
